@@ -1,0 +1,91 @@
+T43B4 000:006.204   SEGGER J-Link V7.96 Log File
+T43B4 000:006.379   DLL Compiled: Mar  7 2024 16:45:42
+T43B4 000:006.388   Logging started @ 2026-10-27 15:01
+T43B4 000:006.396   Process: D:\SoftWare\Keil5\UV4\UV4.exe
+T43B4 000:006.405 - 6.403ms
+T43B4 000:006.417 JLINK_SetWarnOutHandler(...)
+T43B4 000:006.425 - 0.009ms
+T43B4 000:006.435 JLINK_OpenEx(...)
+T43B4 000:009.358   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T43B4 000:010.615   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T43B4 000:010.750   Decompressing FW timestamp took 107 us
+T43B4 000:021.245   Hardware: V9.40
+T43B4 000:021.287   S/N: 69405585
+T43B4 000:021.302   OEM: SEGGER
+T43B4 000:021.317   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T43B4 000:022.709   Bootloader: (Could not read)
+T43B4 000:024.450   TELNET listener socket opened on port 19021
+T43B4 000:024.607   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T43B4 000:024.882   WEBSRV Webserver running on local port 19080
+T43B4 000:025.088   Looking for J-Link GUI Server exe at: D:\SoftWare\Keil5\ARM\Segger\JLinkGUIServer.exe
+T43B4 000:025.507   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V796\JLinkGUIServer.exe
+T43B4 000:025.665   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V796\JLinkGUIServer.exe
+T43B4 000:071.819   J-Link GUI Server info: "J-Link GUI server V7.96 "
+T43B4 000:077.524 - 71.070ms returns "O.K."
+T43B4 000:077.605 JLINK_GetEmuCaps()
+T43B4 000:077.631 - 0.021ms returns 0xB9FF7BBF
+T43B4 000:077.658 JLINK_TIF_GetAvailable(...)
+T43B4 000:078.292 - 0.633ms
+T43B4 000:078.329 JLINK_SetErrorOutHandler(...)
+T43B4 000:078.348 - 0.019ms
+T43B4 000:078.401 JLINK_ExecCommand("ProjectFile = "D:\github\Learning-of-FreeRTOS\05_10\WorkSpace\JLinkSettings.ini"", ...). 
+T43B4 000:101.825   Ref file found at: D:\SoftWare\Keil5\ARM\Segger\JLinkDevices.ref
+T43B4 000:101.983   REF file references invalid XML file: C:\Program Files\SEGGER\JLink_V796\JLinkDevices.xml
+T43B4 000:103.128 - 24.732ms returns 0x00
+T43B4 000:107.114 JLINK_ExecCommand("Device = STM32F411CEUx", ...). 
+T43B4 000:112.975   Device "STM32F411CE" selected.
+T43B4 000:113.574 - 6.408ms returns 0x00
+T43B4 000:113.593 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T43B4 000:113.607 - 0.002ms returns 0x01
+T43B4 000:113.619 JLINK_GetHardwareVersion()
+T43B4 000:113.634 - 0.010ms returns 94000
+T43B4 000:113.644 JLINK_GetDLLVersion()
+T43B4 000:113.654 - 0.009ms returns 79600
+T43B4 000:113.664 JLINK_GetOEMString(...)
+T43B4 000:113.675 JLINK_GetFirmwareString(...)
+T43B4 000:113.685 - 0.010ms
+T43B4 000:125.227 JLINK_GetDLLVersion()
+T43B4 000:125.273 - 0.045ms returns 79600
+T43B4 000:125.293 JLINK_GetCompileDateTime()
+T43B4 000:125.311 - 0.017ms
+T43B4 000:129.257 JLINK_GetFirmwareString(...)
+T43B4 000:129.277 - 0.019ms
+T43B4 000:132.528 JLINK_GetHardwareVersion()
+T43B4 000:132.568 - 0.039ms returns 94000
+T43B4 000:136.739 JLINK_GetSN()
+T43B4 000:136.772 - 0.032ms returns 69405585
+T43B4 000:141.392 JLINK_GetOEMString(...)
+T43B4 000:149.710 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T43B4 000:152.274 - 2.564ms returns 0x00
+T43B4 000:152.303 JLINK_HasError()
+T43B4 000:152.328 JLINK_SetSpeed(5000)
+T43B4 000:152.695 - 0.369ms
+T43B4 000:152.725 JLINK_GetIdData(pIdData)
+T43B4 000:157.508   InitTarget() start
+T43B4 000:157.546    J-Link Script File: Executing InitTarget()
+T43B4 000:161.190   JTAG selected. Identifying JTAG Chain...
+T43B4 000:166.297   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T43B4 000:171.077   Error: Scanning JTAG chain failed.
+T43B4 000:175.714   Can not attach to CPU. Trying connect under reset.
+T43B4 000:232.843   JTAG selected. Identifying JTAG Chain...
+T43B4 000:240.095   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T43B4 000:247.640   Error: Scanning JTAG chain failed.
+T43B4 000:252.376   Connecting to CPU via connect under reset failed.
+T43B4 000:308.665   InitTarget() end - Took 145ms
+T43B4 000:313.781   Connect failed. Resetting via Reset pin and trying again.
+T43B4 000:382.609   InitTarget() start
+T43B4 000:382.793    J-Link Script File: Executing InitTarget()
+T43B4 000:388.813   JTAG selected. Identifying JTAG Chain...
+T43B4 000:395.133   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T43B4 000:399.928   Error: Scanning JTAG chain failed.
+T43B4 000:404.022   Can not attach to CPU. Trying connect under reset.
+T43B4 000:462.634   JTAG selected. Identifying JTAG Chain...
+T43B4 000:469.428   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T43B4 000:475.343   Error: Scanning JTAG chain failed.
+T43B4 000:479.798   Connecting to CPU via connect under reset failed.
+T43B4 000:539.924   InitTarget() end - Took 148ms
+T43B4 000:540.031 - 387.304ms
+T43B4 004:028.347 JLINK_Close()
+T43B4 004:040.014 - 11.667ms
+T43B4 004:040.050   
+T43B4 004:040.061   Closed
